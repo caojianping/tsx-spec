@@ -1,0 +1,16 @@
+{
+  "name": "@tsx-spec/eslint-config",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@tsx-spec/shared": "workspace:^1.0.0"
+  }
+}

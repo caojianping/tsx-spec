@@ -1,0 +1,13 @@
+{
+  "name": "@tsx-spec/shared",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {},
+  "dependencies": {}
+}
