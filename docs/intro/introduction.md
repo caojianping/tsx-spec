@@ -20,7 +20,6 @@
   - [文档通用规约](docs/engineering/2.doc-writing-practice.md)
   - [更新日志规约](docs/engineering/3.doc-changelog.md)
 
-
 ## 单条规约格式说明
 
 ### 规约级别和对应的 Lint 规则

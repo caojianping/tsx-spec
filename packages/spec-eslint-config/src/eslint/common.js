@@ -6,12 +6,10 @@
 
 // ESlint config for common js project
 module.exports = {
-  extends: [
-    require.resolve('../javascript/common')
-  ],
+  extends: [require.resolve('../javascript/common')],
   rules: {
     // Change error to warn
-    'semi': 'warn',
+    semi: 'warn',
     'eol-last': 'warn',
     'quote-props': 'warn',
     'no-unused-vars': 'warn',

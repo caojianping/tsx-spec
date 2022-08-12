@@ -9,7 +9,7 @@
  * @link https://github.com/yannickcr/eslint-plugin-react
  * @link https://www.npmjs.com/package/eslint-plugin-react-hooks
  */
- module.exports = {
+module.exports = {
   plugins: ['react', 'react-hooks'],
   rules: {
     // 防止 React 组件定义中缺少 displayName

@@ -6,7 +6,5 @@
 
 // ESlint config for ice and react project
 module.exports = {
-  extends: [
-    require.resolve('../javascript/react'),
-  ],
+  extends: [require.resolve('../javascript/react')],
 };

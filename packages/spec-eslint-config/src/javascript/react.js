@@ -5,10 +5,7 @@
  */
 
 module.exports = {
-  extends: [
-    './common',
-    '../rules/react',
-  ].map(require.resolve),
+  extends: ['./common', '../rules/react'].map(require.resolve),
   parserOptions: {
     babelOptions: {
       presets: ['@babel/preset-react'],

@@ -4,7 +4,7 @@
  * @Date: 2022-08-11 18:04:19
  */
 
- module.exports = {
+module.exports = {
   rules: {
     // 强制在数组开括号后和闭括号前换行
     'array-bracket-newline': 'off',

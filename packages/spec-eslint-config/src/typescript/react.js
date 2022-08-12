@@ -5,8 +5,5 @@
  */
 
 module.exports = {
-  extends: [
-    '../javascript/react',
-    '../rules/typescript',
-  ].map(require.resolve),
+  extends: ['../javascript/react', '../rules/typescript'].map(require.resolve),
 };

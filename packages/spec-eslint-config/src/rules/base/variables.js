@@ -4,7 +4,7 @@
  * @Date: 2022-08-11 18:04:19
  */
 
- module.exports = {
+module.exports = {
   // 预设的环境，使用这些环境中的全局变量不会被 no-undef 报错
   // @link https://eslint.org/docs/user-guide/configuring#specifying-environments
   env: {

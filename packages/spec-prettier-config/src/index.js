@@ -4,11 +4,11 @@
  * @Date: 2022-08-11 17:27:34
  */
 
-const path = require("path");
-const requireAll = require("require-all");
-const { getConfig } = require("@tsx-spec/shared");
+const path = require('path');
+const requireAll = require('require-all');
+const { getConfig } = require('@tsx-spec/shared');
 
-const prettiers = requireAll({dirname: path.resolve(__dirname, "prettier")});
+const prettiers = requireAll({ dirname: path.resolve(__dirname, 'prettier') });
 
 /**
  * 获取prettier配置

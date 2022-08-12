@@ -6,12 +6,10 @@
 
 // ESlint config for Vue TypeScript project
 module.exports = {
-  extends: [
-    require.resolve('../typescript/vue'),
-  ],
+  extends: [require.resolve('../typescript/vue')],
   rules: {
     // Change error to warn
-    'semi': 'off',
+    semi: 'off',
     '@typescript-eslint/semi': 'warn',
     'eol-last': 'warn',
     'quote-props': 'warn',

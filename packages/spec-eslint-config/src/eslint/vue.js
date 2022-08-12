@@ -6,12 +6,10 @@
 
 // ESlint config for Vue project
 module.exports = {
-  extends: [
-    require.resolve('../javascript/vue'),
-  ],
+  extends: [require.resolve('../javascript/vue')],
   rules: {
     // Change error to warn
-    'semi': 'warn',
+    semi: 'warn',
     'eol-last': 'warn',
     'quote-props': 'warn',
     'no-unused-vars': 'warn',

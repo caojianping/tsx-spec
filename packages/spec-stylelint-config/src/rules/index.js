@@ -11,9 +11,9 @@ module.exports = {
   plugins: ['stylelint-scss'],
   rules: {
     /**
-    * Possible errors
-    * @link https://stylelint.io/user-guide/rules/#possible-errors
-    */
+     * Possible errors
+     * @link https://stylelint.io/user-guide/rules/#possible-errors
+     */
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
     'block-no-empty': null,
@@ -62,9 +62,9 @@ module.exports = {
     ],
 
     /**
-    * Stylistic issues
-    * @link https://stylelint.io/user-guide/rules/list#stylistic-issues
-    */
+     * Stylistic issues
+     * @link https://stylelint.io/user-guide/rules/list#stylistic-issues
+     */
     indentation: 2,
     'block-closing-brace-newline-before': 'always-multi-line',
     'block-closing-brace-space-before': 'always-single-line',
@@ -94,9 +94,9 @@ module.exports = {
     'value-list-comma-space-after': 'always-single-line',
 
     /**
-    * stylelint-scss rules
-    * @link https://www.npmjs.com/package/stylelint-scss
-    */
+     * stylelint-scss rules
+     * @link https://www.npmjs.com/package/stylelint-scss
+     */
     'scss/double-slash-comment-whitespace-inside': 'always',
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],

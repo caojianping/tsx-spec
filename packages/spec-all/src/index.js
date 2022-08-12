@@ -9,4 +9,4 @@ const getStylelintConfig = require('@tsx-spec/stylelint-config');
 const getCommitlintConfig = require('@tsx-spec/commitlint-config');
 const getPrettierConfig = require('@tsx-spec/prettier-config');
 
-module.exports = {getESLintConfig,getStylelintConfig,getCommitlintConfig,getPrettierConfig};
+module.exports = { getESLintConfig, getStylelintConfig, getCommitlintConfig, getPrettierConfig };
