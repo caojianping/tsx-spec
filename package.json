@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint --ext .js,.jsx,.tsx,.ts ./ --resolve-plugins-relative-to ./packages/spec-*/src/**",
+    "lint": "eslint --fix --ext .js,.jsx,.tsx,.ts ./ --resolve-plugins-relative-to ./packages/spec-*/src/**",
     "prettier": "prettier **/* --write",
     "publish": "node ./scripts/publish"
   },
