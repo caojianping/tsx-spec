@@ -10,6 +10,12 @@
 
  const stylelints = requireAll({dirname: path.resolve(__dirname, "stylelint")});
 
+ /**
+  * 获取stylelint配置
+  * @param {*} rule 规则
+  * @param {*} customConfig 自定义配置
+  * @returns 返回指定配置
+  */
  exports.getStylelintConfig = function (rule, customConfig) {
    return getConfig(stylelints, rule, customConfig);
  };

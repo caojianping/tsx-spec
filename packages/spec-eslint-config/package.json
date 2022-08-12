@@ -9,8 +9,24 @@
     "src"
   ],
   "scripts": {},
+  "peerDependencies": {
+    "eslint": ">=6.8.0"
+  },
   "dependencies": {},
   "devDependencies": {
-    "@tsx-spec/shared": "workspace:^1.0.0"
+    "@tsx-spec/shared": "workspace:^1.0.0",
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-react": "^7.16.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.7.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-vue": "^7.3.0",
+    "typescript": "^4.1.2",
+    "vue-eslint-parser": "^7.3.0"
   }
 }

@@ -9,5 +9,11 @@
     "src"
   ],
   "scripts": {},
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@tsx-spec/eslint-config": "workspace:^1.0.0",
+    "@tsx-spec/stylelint-config": "workspace:^1.0.0",
+    "@tsx-spec/commitlint-config": "workspace:^1.0.0",
+    "@tsx-spec/prettier-config": "workspace:^1.0.0"
+  }
 }

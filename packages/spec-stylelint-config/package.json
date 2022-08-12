@@ -9,8 +9,13 @@
     "src"
   ],
   "scripts": {},
-  "dependencies": {},
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
   "devDependencies": {
-    "@tsx-spec/shared": "workspace:^1.0.0"
+    "@tsx-spec/shared": "workspace:^1.0.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
   }
 }

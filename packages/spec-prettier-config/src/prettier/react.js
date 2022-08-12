@@ -4,7 +4,7 @@
  * @Date: 2022-08-11 17:21:20
  */
 
-// prettier config for react
+// prettier config for react project
 module.exports = {
   printWidth: 120,
   tabWidth: 2,

@@ -1,11 +1,16 @@
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:04:19
+ */
+
 /**
  * 本文件的规则由 eslint-plugin-import 提供
  * 与 eslint-plugin-import 推荐配置对齐
  * @see https://github.com/import-js/eslint-plugin-import
  * @see https://github.com/import-js/eslint-plugin-import/blob/main/config/recommended.js
  */
-
-module.exports = {
+ module.exports = {
   plugins: [
     'import',
   ],

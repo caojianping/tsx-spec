@@ -1,4 +1,10 @@
-module.exports = {
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:04:19
+ */
+
+ module.exports = {
   rules: {
     // 强制 getter 和 setter 在对象中成对出现
     'accessor-pairs': 'off',

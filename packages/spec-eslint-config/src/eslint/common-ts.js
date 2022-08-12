@@ -1,8 +1,13 @@
-// https://www.npmjs.com/package/eslint-config-ali
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:00:24
+ */
+
 // ESlint config for common ts project
 module.exports = {
   extends: [
-    require.resolve('eslint-config-ali/typescript'),
+    require.resolve('../typescript/common'),
   ],
   rules: {
     // Change error to warn

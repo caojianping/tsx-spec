@@ -1,9 +1,12 @@
-// https://www.npmjs.com/package/eslint-config-ali
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:00:24
+ */
+
 // ESlint config for ice and react project
 module.exports = {
   extends: [
-    require.resolve('eslint-config-ali/react'),
-    // For some ci and jest test env, we chose require.resolve instead 'plugin:@iceworks/best-practices/react'
-    require.resolve('@iceworks/eslint-plugin-best-practices/src/configs/react'),
+    require.resolve('../javascript/react'),
   ],
 };

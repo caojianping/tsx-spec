@@ -1,8 +1,13 @@
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:04:19
+ */
+
 /**
  * 本文件的规则由 eslint-plugin-vue 提供，使用 vue-eslint-parser 作为 parser
  * @link https://eslint.vuejs.org/rules/
  */
-
 module.exports = {
   parser: 'vue-eslint-parser',
   plugins: ['vue'],

@@ -6,7 +6,7 @@
 
 module.exports = {
   extends: [
-    '../javascript/react',
+    '../javascript/common',
     '../rules/typescript',
   ].map(require.resolve),
 };

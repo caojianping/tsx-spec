@@ -1,4 +1,10 @@
-module.exports = {
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:04:19
+ */
+
+ module.exports = {
   rules: {
     // 箭头函数-函数体风格
     // @reason 允许灵活使用

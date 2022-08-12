@@ -1,4 +1,10 @@
-module.exports = {
+/***
+ * @file:
+ * @author: caojianping
+ * @Date: 2022-08-11 18:04:19
+ */
+
+ module.exports = {
   rules: {
     // for 循环中的计数器应朝着正确方向移动
     'for-direction': 'error',
