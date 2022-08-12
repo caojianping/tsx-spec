@@ -10,7 +10,7 @@
  * @param {*} source 原始对象
  * @returns 返回合并后的对象
  */
-exports.deepMerge = function (target, source) {
+function deepMerge(target, source) {
   const newObj = JSON.parse(JSON.stringify(target));
 
   Object.keys(source).forEach((key) => {
@@ -25,7 +25,7 @@ exports.deepMerge = function (target, source) {
   });
 
   return newObj;
-};
+}
 
 /**
  * 获取配置
@@ -34,10 +34,12 @@ exports.deepMerge = function (target, source) {
  * @param {*} customConfig 自定义配置
  * @returns 返回指定的配置
  */
-exports.getConfig = function (configs, rule, customConfig) {
+function getConfig(configs, rule, customConfig) {
   if (!configs[rule]) {
     throw new Error(`Rule '${rule}' not Support!`);
   }
 
-  return deepmerge(configs[rule], customConfig || {});
-};
+  return deepMerge(configs[rule], customConfig || {});
+}
+
+module.exports = { deepMerge, getConfig };
