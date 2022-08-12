@@ -15,9 +15,9 @@ exports.deepMerge = function (target, source) {
 
   Object.keys(source).forEach((key) => {
     const type = Object.prototype.toString.call(source[key]);
-    if (type === "[object Array]") {
+    if (type === '[object Array]') {
       newObj[key] = [...(target[key] || []), ...source[key]];
-    } else if (type === "[object Object]") {
+    } else if (type === '[object Object]') {
       newObj[key] = { ...(target[key] || {}), ...source[key] };
     } else {
       newObj[key] = source[key];
